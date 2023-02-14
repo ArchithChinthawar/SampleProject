@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="regstyle.css">
+</head>
+<body>
+	<header>
+		<h1>Student and Faculty Management System</h1>
+	</header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="loginPage.html">Login</a>
+	</nav>
+	<main>
+		<h2>Add Student Details </h2>
+		<form action="" method="post">
+			<div>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div>
+				<label for="email">Email-ID:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+            <div>
+            <label for="course">Choose a Course :</label>
+    <select id="course" name="course">
+              <option value="CSE ">CSE</option>
+              <option value="ML">ML</option>
+              <option value="IOT">IOT</option>
+              <option value="Automobile ">Automobile</option>
+              <option value="EEE">EEE</option>
+              <option value="ECM">ECM</option>
+              <option value="Block-Chain">Block-Chain</option>
+            </div>
+            </select>
+
+			<div>
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="phone" required>
+			</div>
+
+			<div>
+				<label for="fees">Fees:</label>
+				<input type="text" id="fees" name="fees" required>
+			</div>
+            
+            <div>
+				<label for="duration">Duration(Months):</label>
+				<input type="number" id="duration" name="duration" required>
+			</div>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Student and Faculty Management System</p>
+	</footer>
+</body>
+</html>
